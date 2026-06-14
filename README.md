@@ -88,7 +88,7 @@ Use the @ symbol followed by a document ID to include document content in your q
 Use the / prefix to execute commands defined in the MCP server:
 
 ```
-> /summarize deposition.md
+> /format deposition.md
 ```
 
 Commands will auto-complete when you press Tab.
@@ -99,13 +99,11 @@ Commands will auto-complete when you press Tab.
 
 Edit the `mcp_server.py` file to add new documents to the `docs` dictionary.
 
-### Implementing MCP Features
+### Implementing New MCP Features
 
-To fully implement the MCP features:
-
-1. Complete the TODOs in `mcp_server.py`
-2. Implement the missing functionality in `mcp_client.py`
-
+Add new features in `mcp_server.py`
+Implement the functionality in `mcp_client.py`
+   
 ### Linting and Typing Check
 
 There are no lint or type checks implemented.
